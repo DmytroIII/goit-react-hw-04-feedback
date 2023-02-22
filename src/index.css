@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
 
 body {
   margin: 0;
@@ -7,10 +7,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(116, 188, 230);
-  /* background-repeat: no-repeat; */
-  background-size: cover;
-  /* background-size: auto 1200px; */
   letter-spacing: 0.09em;
 }
 
@@ -28,12 +24,14 @@ h6,
 p {
   margin: 0;
 }
+
 ul,
 ol {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 img {
   display: block;
   max-width: 100%;

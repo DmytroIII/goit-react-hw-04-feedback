@@ -14,18 +14,15 @@ const App = () => {
     switch (item) {
       case 'good':
         setGood(prevState => prevState + 1);
-        // console.log('good: ', good);
         break;
       case 'neutral':
         setNeutral(prevState => prevState + 1);
-        // console.log('neutral: ', neutral);
         break;
       case 'bad':
         setBad(prevState => prevState + 1);
-        // console.log('bad: ', bad);
         break;
       default:
-        return; // необязательно ставить
+        return;
     }
   } 
 
